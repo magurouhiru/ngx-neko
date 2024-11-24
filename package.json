@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start": "ng serve ngx-neko_sample",
+    "build": "ng build ngx-neko",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "fmt": "prettier --write src projects"

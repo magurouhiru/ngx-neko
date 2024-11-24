@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxNekoLibraryComponent } from './ngx-neko-library.component';
+import { NgxNekoComponent } from './ngx-neko.component';
 
-describe('NgxNekoLibraryComponent', () => {
-  let component: NgxNekoLibraryComponent;
-  let fixture: ComponentFixture<NgxNekoLibraryComponent>;
+describe('NgxNekoComponent', () => {
+  let component: NgxNekoComponent;
+  let fixture: ComponentFixture<NgxNekoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NgxNekoLibraryComponent],
+      imports: [NgxNekoComponent],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(NgxNekoLibraryComponent);
+    fixture = TestBed.createComponent(NgxNekoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
