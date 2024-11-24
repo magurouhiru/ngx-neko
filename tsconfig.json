@@ -11,6 +11,9 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
+    "paths": {
+      "ngx-neko-library": ["./dist/ngx-neko-library"]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
