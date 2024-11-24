@@ -10,16 +10,16 @@
           "style": "scss"
         }
       },
-      "root": "",
-      "sourceRoot": "src",
+      "root": "projects/ngx-neko_sample",
+      "sourceRoot": "projects/ngx-neko_sample/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/ngx-neko_sample",
-            "index": "src/index.html",
-            "browser": "src/main.ts",
+            "index": "projects/ngx-neko_sample/src/index.html",
+            "browser": "projects/ngx-neko_sample/src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
@@ -29,7 +29,7 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"],
+            "styles": ["projects/ngx-neko_sample/src/styles.scss"],
             "scripts": []
           },
           "configurations": {

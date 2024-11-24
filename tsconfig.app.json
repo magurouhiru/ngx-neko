@@ -6,6 +6,6 @@
     "outDir": "./out-tsc/app",
     "types": []
   },
-  "files": ["src/main.ts"],
-  "include": ["src/**/*.d.ts"]
+  "files": ["projects/ngx-neko_sample/src/main.ts"],
+  "include": ["projects/ngx-neko_sample/src/**/*.d.ts"]
 }

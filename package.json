@@ -8,7 +8,7 @@
     "build:lib": "ng build ngx-neko",
     "watch:lib": "ng build --watch --configuration development ngx-neko",
     "test": "ng test",
-    "fmt": "prettier --write src projects"
+    "fmt": "prettier --write projects"
   },
   "private": true,
   "dependencies": {
