@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "npm-run-all -s build:lib start:sample",
     "start:sample": "ng serve ngx-neko_sample",
+    "build:sample": "ng build ngx-neko_sample",
     "build:lib": "ng build ngx-neko",
     "watch:lib": "ng build --watch --configuration development ngx-neko",
     "test": "ng test",
